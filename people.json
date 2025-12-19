@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Peter",
+    "age": 22,
+    "email": "peter12@gmail.com"
+  },
+  {
+    "name": "Howard",
+    "age": 30,
+    "email": "hwd11@gmail.com"
+  },
+  {
+    "name": "Bob",
+    "age": 22,
+    "email": "bob2@example.com"
+  }
+]
