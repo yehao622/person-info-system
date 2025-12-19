@@ -19,12 +19,19 @@ This project demonstrates clean Go programming practices through a simple yet fu
 ## Project Structure
 .
   ├── main.go # Entry point and command routing
+  
   ├── commands.go # Command handlers (add, del, list)
+  
   ├── storage.go # JSON file I/O operations
+  
   ├── display.go # Table formatting and output display
+  
   ├── person.go # Helper functions for person operations
+  
   ├── models.go # Data structure definitions
+  
   ├── people.json # Data storage file (auto-generated)
+  
   └── README.md # This file
 
 
