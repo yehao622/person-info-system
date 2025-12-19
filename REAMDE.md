@@ -68,7 +68,9 @@ go run . add <name> <age> <email>
 
 Example
 go run . add Bob 20 bob@gmail.com
+
 **Output:**
+
 ✓ Successfully added: Bob (age 20, email bob@gmail.com)
 Total people in database: 1
 
@@ -85,33 +87,53 @@ Do you want to update? (Y/y to confirm): Y
 go run . del <name>
 
 Example
+
 go run . del Bob
+
 **Output:**
+
 ✓ Successfully deleted: Bob
 Total people in database: 0
 
 ### List All People
+
 go run . list
+
 **Output:**
+
 +--------+-----+-------------------+
+
 | Name | Age | Email |
+
 +--------+-----+-------------------+
+
 | Bob | 20 | bob@gmail.com |
+
 | Alice | 25 | alice@example.com |
+
 +--------+-----+-------------------+
+
 Total: 2 people
 
 ### List Specific Person
 go run . list <name>
 
 Example
+
 go run . list Bob
+
 **Output:**
+
 +------+-----+---------------+
+
 | Name | Age | Email |
+
 +------+-----+---------------+
+
 | Bob | 20 | bob@gmail.com |
+
 +------+-----+---------------+
+
 Total: 1 people
 
 ## Data Model
@@ -144,16 +166,16 @@ return fmt.Errorf("error reading data: %v", err)
 ### Data Persistence
 Records are stored in `people.json` with proper formatting:
 [
-{
-"name": "Bob",
-"age": 20,
-"email": "bob@gmail.com"
-},
-{
-"name": "Alice",
-"age": 25,
-"email": "alice@example.com"
-}
+  {
+    "name": "Bob",
+    "age": 20,
+    "email": "bob@gmail.com"
+  },
+  {
+    "name": "Alice",
+    "age": 25,
+    "email": "alice@example.com"
+  }
 ]
 
 
