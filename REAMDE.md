@@ -18,6 +18,7 @@ This project demonstrates clean Go programming practices through a simple yet fu
 
 ## Project Structure
 .
+
   ├── main.go # Entry point and command routing
   
   ├── commands.go # Command handlers (add, del, list)
